@@ -1,0 +1,151 @@
+h1 {
+  color: #5a617d ;
+  font-family: sans-serif;
+  font-size: 40px;
+  line-height: 1.00;
+  margin: px;
+
+}
+
+h2 {
+  color: rgb(41, 40, 40);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h3 {
+  color: rgba(55, 53, 53, 0.946);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 2.0;
+  font-weight: lighter;
+}
+
+h4  {
+  color:rgb(14, 184, 20);
+  font-size: 16px;
+}
+
+h5 {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-default);
+  font-weight: lighter;
+  margin: 0;
+  text-align: justify;
+}
+
+div {
+  background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+width: 500px;        /* Set the width */
+margin: 0 auto;      /* Set automatic margins on right/left */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#profile {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+.side {
+background-color: #d4dae740;
+text-align: left;
+display: inline-block;
+
+}
+
+.banner {
+  background-color: #8ca7e040;
+  display: flex;
+}
+
+.text-personal {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  color: aliceblue;
+  background-color: rgba(250, 235, 215, 0.248);
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px outset rgb(248, 248, 248);
+  background-color: rgba(33, 33, 37, 0.054);
+  border-radius: 50;
+  padding: 4px 12px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 2.0;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  box-shadow: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border: 1px outset darkblue;
+  background-color: darkblue;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
